@@ -94,11 +94,11 @@ console.log(maxDate);
 	dateChart
 		//.width(600)
 		.height(220)
-		.margins({top: 10, right: 50, bottom: 30, left: 50})
+		.margins({top: 12, right: 45, bottom: 30, left: 45})
 		.dimension(datePosted)
 		.group(projectsByDate)
 		.renderArea(true)
-		.transitionDuration(500)
+		.transitionDuration(450)
 		.x(d3.time.scale().domain([minDate, maxDate]))
 		.elasticY(true)
 		.renderHorizontalGridLines(true)
